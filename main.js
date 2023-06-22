@@ -6,6 +6,7 @@ import process from "node:process";
 import { spawn } from "node:child_process";
 
 process.title = "FNaF 3 Twitch Bot";
+const channel = "astralspiff";
 
 export const commandCounts = new Map(Array.from(commands.keys(), command => [command, 0]));
 
@@ -22,7 +23,7 @@ ui.init(interval => {
 });
 
 const bot = new tmi.Client({
-	channels: ["astralspiff"],
+	channels: [channel],
 	options: {
 		skipMembership: true,
 		skipUpdatingEmotesets: true
