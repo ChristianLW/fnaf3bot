@@ -16,3 +16,23 @@ Feel free to look around in the code and take inspiration, but please message me
 - There is a visual glitch where it looks like the wrong thing is being rebooted. This is purely visual and the proper system is actually being rebooted.
 - Phantoms tend to break/confuse the bot. Both Spiff and I completely forgot they existed until the bot actually got used.
 - If you reboot the camera or audio system while a ventilation error is occuring, the bot will break. This is due to the way the bot detects when reboots have finished.
+
+# I want to use the bot
+If you want to use the bot, you can absolutely do that as long as you credit me. For YouTube videos, a simple credit in the description (and in the video if you want) is fine.
+For livestreams, just saying in the beginning who made it is fine.
+
+In order to actually run the bot, you'll need three bits of software:
+- [Node.js](https://nodejs.org/en/download)
+- [AutoHotkey v2](https://www.autohotkey.com/)
+- Java (You might already have this)
+
+Then just
+1. Download the bot from this page (click the green “Code” button and then “Download ZIP”).
+2. Extract the zip file into a folder anywhere on your computer.
+3. Shift-right-click the folder and click “Open PowerShell window here”.
+4. Type `npm install` and wait for it to finish.
+5. Open up “main.js” in Notepad or any text editor
+6. Look for `const channel = "astralspiff";` and change `astralspiff` to your Twitch channel ID.
+7. Save the file and you should be able to run the bot by running the shortcut called “RUN”.
+
+If you have any questions, feel free to DM me on Discord (username is bebeu).
