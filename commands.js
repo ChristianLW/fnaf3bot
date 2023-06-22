@@ -33,7 +33,7 @@ export const commands = new Map([
 			.mouseMove(...c.boop)
 			.mouseClick("1")
 			.mouseMove(480, 540)
-			.go(() => { state = "left"; });
+			.go().then(() => { state = "left"; });
 	}],
 	["mute", _ => {
 		return _
