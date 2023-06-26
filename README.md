@@ -12,6 +12,10 @@ There is also `ahk.ahk` which handles global hotkeys as well as checking when re
 
 Feel free to look around in the code and take inspiration, but please message me first if you're going to base something heavily off this.
 
+## Platform Limitations
+- The bot only works on Windows. Most of the code would work fine on any OS, but a few things needed only work on Windows.
+- The bot assumes a 1080p (1920×1080) screen resolution. If you have another screen resolution and want to use the bot, throw me a DM on Discord (see the bottom of this page).
+
 ## Known Issues
 - There is a visual glitch where it looks like the wrong thing is being rebooted. This is purely visual and the proper system is actually being rebooted.
 - Phantoms tend to break/confuse the bot. Both Spiff and I completely forgot they existed until the bot actually got used.
