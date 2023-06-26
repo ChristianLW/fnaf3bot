@@ -21,12 +21,16 @@ Feel free to look around in the code and take inspiration, but please message me
 If you want to use the bot, you can absolutely do that as long as you credit me. For YouTube videos, a simple credit in the description (and in the video if you want) is fine.
 For livestreams, just saying in the beginning who made it is fine.
 
+**Note for below**: When you reach this page, leave the box unchecked!
+
+![nodejs_install](https://github.com/ChristianLW/fnaf3bot/assets/15909392/f67b4b17-f5d1-4499-8210-f5f45cea969b)
+
 In order to actually run the bot, you'll need three bits of software:
 - [Node.js](https://nodejs.org/en/download)
 - [AutoHotkey v2](https://www.autohotkey.com/)
 - Java (You might already have this)
 
-Then just
+Then follow the steps:
 1. Download the bot from this page (click the green “Code” button and then “Download ZIP”).
 2. Extract the zip file into a folder anywhere on your computer.
 3. Shift-right-click the folder and click “Open PowerShell window here”.
