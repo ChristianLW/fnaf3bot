@@ -12,12 +12,12 @@ There is also `ahk.ahk` which handles global hotkeys as well as checking when re
 
 Feel free to look around in the code and take inspiration, but please message me first if you're going to base something heavily off this.
 
-# Known Issues
+## Known Issues
 - There is a visual glitch where it looks like the wrong thing is being rebooted. This is purely visual and the proper system is actually being rebooted.
 - Phantoms tend to break/confuse the bot. Both Spiff and I completely forgot they existed until the bot actually got used.
 - If you reboot the camera or audio system while a ventilation error is occuring, the bot will break. This is due to the way the bot detects when reboots have finished.
 
-# I want to use the bot
+## I want to use the bot
 If you want to use the bot, you can absolutely do that as long as you credit me. For YouTube videos, a simple credit in the description (and in the video if you want) is fine.
 For livestreams, just saying in the beginning who made it is fine.
 
